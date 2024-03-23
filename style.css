@@ -1,0 +1,93 @@
+/*selector {
+    prorety value;
+}*/
+
+/*header{
+    text-align: right;
+    font-size: 100%;
+}*/
+
+body{
+    background-image: url("free-photo.jpeg");
+
+}
+
+a{
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin: 0px 20px 0 px 20 px;
+
+}
+h1:hover{
+    color: darkblue;
+}
+h2:hover{
+    color: darkgrey;
+}
+a:hover{
+    color: darkgrey;
+}
+
+h2 + p:hover{
+    color: #AA3939;
+    text-align: center;
+    border: darkblue;
+    border-width: purple;
+    border-inline-color: blue;
+    cursor: pointer ;
+}
+
+p{
+    color: pink !important;
+}
+
+p{
+    color: blue ;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext:last-child{
+    border: 5px dashed firebrick;
+    color: aqua;
+}
+
+.active{
+    color: red;
+}
+
+#div1{
+   background: darkgrey;
+}
+
+#div2{
+    background: darkseagreen;
+}
+
+h6{
+    font-family: 'poiret one';
+    color: deeppink;
+}
+
+h6 {
+    font-size:100% ;
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    float: left;
+}
+footer{
+    clear: both;
+}
+
+
+/*  A minify exe.
+ body{background-image: url("free-photo.jpeg");}a{display: inline-block;padding: 5px 20px 5px 20px;margin: 0px 20px 0 px 20 px;}h1:hover{color: darkblue;}h2:hover{color: darkgrey;}a:hover{color: darkgrey;}h2 + p:hover{color: #AA3939;text-align: center;border: darkblue;border-width: purple;border-inline-color: blue;cursor: pointer ;}p{color: pink !important;}p{color: blue ;cursor: pointer;}li{list-style: none;display: inline-block;}.webtext:last-child{border: 5px dashed firebrick;color: aqua;}.active{color: red;}#div1{background: darkgrey;}#div2{background: darkseagreen;}h6{font-family: 'poiret one';color: deeppink;}h6 {font-size:100% ;font-family: "Grey Qo", cursive;font-weight: 400;font-style: normal;}img{float: left;}footer{clear: both;}
+ */
